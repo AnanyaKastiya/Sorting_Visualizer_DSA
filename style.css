@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 70vh;
+  margin: 0 auto;
+  max-width: 95vw;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.bar {
+  background-color: steelblue;
+  margin: 0 1px;
+  width: 5px;
+  transition: height 0.2s ease;
+}
